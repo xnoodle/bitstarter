@@ -53,6 +53,7 @@ var checkUrl = function(url,checksfile) {
         var present = $(checks[ii]).length > 0;
         out[checks[ii]] = present;
     }
+    return out;
 
 };
 var checkHtmlFile = function(htmlfile, checksfile) {
